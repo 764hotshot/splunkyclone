@@ -11,7 +11,7 @@ for (_y = 0; _y < xTiles; _y++)
 	{
 		tileIn = string(tilemap_get_at_pixel(tilemap, _x * gridSize, _y * gridSize));
 		
-		if (string_length(tileIn) > 1 or tileIn != "-1"){
+		if (string_length(tileIn) > 2 and tileIn != -1){
 			
 			LevelData += "<"+tileIn+">";
 			
