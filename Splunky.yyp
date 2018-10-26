@@ -319,6 +319,22 @@
             }
         },
         {
+            "Key": "9826e29a-5ac5-4cad-8cca-be975d8d0f47",
+            "Value": {
+                "id": "e359fb22-898e-4d6a-a3e5-85620864dfbe",
+                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "a013da76-065f-4244-aa42-1ce5ddfabcbc",
+            "Value": {
+                "id": "21049b4f-ce10-4ce4-ac27-dc0c4f3d36ea",
+                "resourcePath": "sprites\\STiles\\STiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8d06343e-0810-4310-bce5-a48047c8c65f",
