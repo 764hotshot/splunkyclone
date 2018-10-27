@@ -1,2 +1,9 @@
+var saveDir = "LRB_1.txt";
+
+var file = file_text_open_read(saveDir);
+var levelString = file_text_read_string(file);
+file_text_close(file);
+
+
 ds_list_add(Sections_LRB_List,
-				"000000000000000000000000<46>460<46>46000000000000000<43>43<45>450000<46>46000000<43>43<45>450000000000000<20>20<20>20<20>20<20>20<37>3700<35>35<20>20<20>20");
+				levelString);
