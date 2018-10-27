@@ -6,8 +6,9 @@ var SectionString = argument2;
 var _tilemap = argument3;
 
 var MultiTileId = "";
+c = 0;
 
-for (c = 0; c < string_length(SectionString); c++;)			//MAKE THIS A WHILE LOOP IF NOT WORKING
+while (c < string_length(SectionString))			//MAKE THIS A WHILE LOOP IF NOT WORKING
 {
 	switch (string_char_at(SectionString, c))
 	{
@@ -30,6 +31,6 @@ for (c = 0; c < string_length(SectionString); c++;)			//MAKE THIS A WHILE LOOP I
 		
 	}
 	
-	
+	c++
 	
 }
